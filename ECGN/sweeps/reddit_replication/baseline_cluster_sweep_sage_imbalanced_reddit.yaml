@@ -1,0 +1,44 @@
+wandb_version: 1
+
+epoch:
+  value: 0
+n_epochs:
+  value: 3000
+fold:
+  value: 1
+batchSize:
+  value: 1024
+lr:
+  value: 0.00115781035666739654
+weightdecay:
+  value: 0.002
+optim:
+  value: Adam
+early_stop_steps:
+  value: 40
+reg:
+  value: 0.004907049613464252
+layer:
+  value: 1
+layerdim:
+  value: 64
+aggregator:
+  value: 'mean'
+cluster_epochs:
+  value: 2
+neighborhood_sampling:
+  value: False
+im_ratio:
+  value: 1
+dropout:
+  value: 0.2
+num_clusters:
+  value: 20
+num_active_layers:
+  value: 1
+layer_wise_lr:
+  value: True
+datasetname:
+  value: 'Reddit'
+fullbatch:
+  value: False

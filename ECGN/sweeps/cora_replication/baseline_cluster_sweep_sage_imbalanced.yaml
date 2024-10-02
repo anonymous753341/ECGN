@@ -1,0 +1,44 @@
+wandb_version: 1
+
+epoch:
+  value: 0
+n_epochs:
+  value: 3000
+fold:
+  value: 1
+batchSize:
+  value: 128
+lr:
+  value: 0.0115781035666739654
+weightdecay:
+  value: 0.002
+optim:
+  value: Adam
+early_stop_steps:
+  value: 40
+reg:
+  value: 0.01907049613464252
+layer:
+  value: 2
+layerdim:
+  value: 128
+aggregator:
+  value: 'mean'
+cluster_epochs:
+  value: 200
+neighborhood_sampling:
+  value: False
+im_ratio:
+  value: 0
+dropout:
+  value: 0.0
+num_clusters:
+  value: 3
+num_active_layers:
+  value: 1
+layer_wise_lr:
+  value: True 
+datasetname:
+  value: 'cora'
+fullbatch:
+  value: True
